@@ -31,7 +31,7 @@ export default function Home() {
       {/* Second section with mint green background */}
       <section className="py-12 bg-[#e8f4f1]">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-serif font-bold text-[#2d3c39] mb-6 border-b border-[#d0e3df] pb-2">Books I've Read</h2>
+          <h2 className="text-2xl font-serif font-bold text-[#2d3c39] mb-6 border-b border-[#d0e3df] pb-2">Books I&apos;ve Read</h2>
           <BookInfo books={booksData.read} bgColor="mint" />
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function Home() {
 
       <footer className="bg-[#e8f4f1] text-[#2d3c39] py-6 border-t border-[#d0e3df]">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="italic text-sm">"A reader lives a thousand lives before he dies. The man who never reads lives only one." — George R.R. Martin</p>
+          <p className="italic text-sm">&ldquo;A reader lives a thousand lives before he dies. The man who never reads lives only one.&rdquo; — George R.R. Martin</p>
           <p className="mt-4 text-xs opacity-70">© {new Date().getFullYear()} Relics - Your Personal Library</p>
         </div>
       </footer>
