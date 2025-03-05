@@ -1,0 +1,96 @@
+{
+    "toRead": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "coverImage": "/images/great-gatsby.jpg",
+        "description": "Set in the American Jazz Age, the novel follows a former World War I soldier named Jay Gatsby a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+        "publishedYear": 1925
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "coverImage": "/images/mockingbird.jpg",
+        "description": "Set in the Great Depression in the fictional town of Maycomb, Alabama, the novel is narrated by a young girl named Scout Finch, who is the daughter of a country lawyer, Atticus Finch. The story addresses racial injustice and the destruction of innocence as Atticus defends Tom Robinson, a black man accused of raping a white woman.",
+        "publishedYear": 1960
+      }
+    ],
+    "read": [
+      {
+        "id": 3,
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "coverImage": "/images/atomic-habits.jpg",
+        "description": "A book about how to build good habits and break bad ones",
+        "publishedYear": 2018
+      },
+      {
+        "id": 5,
+        "title": "A Game of Thrones",
+        "author": "George R. R. Martin",
+        "coverImage": "/images/game-of-thrones.jpg",
+        "description": "The first novel in George R. R. Martin's A Song of Ice and Fire series, depicts the political and supernatural struggles among noble families in the Seven Kingdoms of Westeros as they vie for the Iron Throne.",
+        "publishedYear": 1996
+      },
+      {
+        "id": 6,
+        "title": "A Clash of Kings",
+        "author": "George R. R. Martin",
+        "coverImage": "/images/clash-of-kings.jpg",
+        "description": "The second novel in George R. R. Martin's A Song of Ice and Fire series, continues the epic saga of Westeros, a land where summers and winters can span years or even decades. The story unfolds across multiple perspectives, including members of the Stark family, the Lannisters, and other key players, each navigating the tumultuous landscape of a realm torn apart by war and political intrigue. As the power struggle intensifies, ancient and supernatural forces begin to stir, threatening the already fragile stability of the Seven Kingdoms.",
+        "publishedYear": 1998
+      },
+      {
+        "id": 9,
+        "title": "The Bitcoin Standard",
+        "author": "Saifedean Ammous",
+        "coverImage": "/images/bitcoin-standard.jpg",
+        "description": "A book about the Bitcoin Standard",
+        "publishedYear": 2018
+      },
+      {
+        "id": 10,
+        "title": "Mother of God",
+        "author": "Paul Rosolie",
+        "coverImage": "/images/mother-of-god.jpg",
+        "description": "A beautifully written account of a young man's first forays into the Peruvian Amazon, which led to a life-long commitment.",
+        "publishedYear": 2018
+      },
+      {
+        "id": 11,
+        "title": "Cant Hurt Me",
+        "author": "David Goggins",
+        "coverImage": "/images/cant-hurt-me.jpg",
+        "description": "For David Goggins, childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes.",
+        "publishedYear": 2018
+      },
+      {
+        "id": 12,
+        "title": "Never Finished",
+        "author": "David Goggins",
+        "coverImage": "/images/never-finished.jpg",
+        "description": "Can’t Hurt Me, David Goggins’ smash hit memoir, demonstrated how much untapped ability we all have but was merely an introduction to the power of the mind. In Never Finished, Goggins takes you inside his Mental Lab, where he developed the philosophy, psychology, and strategies that enabled him to learn that what he thought was his limit was only his beginning and that the quest for greatness is unending.",
+        "publishedYear": 2018
+      }
+    ],
+    "currentlyReading": [
+      {
+        "id": 7,
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "coverImage": "/images/lean-startup.jpg",
+        "description": "The Lean Start up introduces a fresh approach to building businesses by focusing on rapid experimentation and customer feedback. Instead of spending months crafting a perfect product, Ries advocates for launching a minimal viable product and using customer feedback to iterate and improve the product to quickly gauge customer interest and gather insights.",
+        "publishedYear": 2011
+      },
+      {
+        "id" : 8,
+        "title" : "The Body Illustrated",
+        "author" : "Bill Bryson",
+        "coverImage" : "/images/body-illustrated.jpg",
+        "description" : "A book about the human body",
+        "publishedYear" : 2018
+      }
+    ]
+  }
