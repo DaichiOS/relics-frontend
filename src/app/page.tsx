@@ -1,27 +1,21 @@
 import { BookInfo } from "@/components/books/BookInfo";
+import { Navbar } from "@/components/layout/Navbar";
 import booksData from "@/data/books.json";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <header className="bg-[#e8f4f1] text-[#2d3c39] py-6 border-b border-[#d0e3df]">
+      <header id="home" className="bg-[#e8f4f1] text-[#2d3c39] py-6 border-b border-[#d0e3df]">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-serif font-bold">Relics</h1>
-          <p className="mt-1 text-[#2d3c39] opacity-80 italic">Your personal reading journey</p>
+          <p className="mt-1 text-[#2d3c39] opacity-80 italic">My personal reading journey</p>
         </div>
       </header>
       
-      <nav className="bg-[#e8f4f1] text-[#2d3c39] py-3 shadow-sm border-b border-[#d0e3df]">
-        <div className="max-w-6xl mx-auto px-4 flex space-x-6">
-          <a href="#" className="hover:text-[#3d6b63] transition-colors font-medium">Home</a>
-          <a href="#" className="hover:text-[#3d6b63] transition-colors">To Read</a>
-          <a href="#" className="hover:text-[#3d6b63] transition-colors">Read</a>
-          <a href="#" className="hover:text-[#3d6b63] transition-colors">Currently Reading</a>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* First section with warm beige background */}
-      <section className="py-12 bg-[#f9f8f4]">
+      <section id="to-read" className="py-12 bg-[#f9f8f4]">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Books I Want to Read</h2>
           <BookInfo books={booksData.toRead} bgColor="beige" />
@@ -29,7 +23,7 @@ export default function Home() {
       </section>
       
       {/* Second section with mint green background */}
-      <section className="py-12 bg-[#e8f4f1]">
+      <section id="read" className="py-12 bg-[#e8f4f1]">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-serif font-bold text-[#2d3c39] mb-6 border-b border-[#d0e3df] pb-2">Books I&apos;ve Read</h2>
           <BookInfo books={booksData.read} bgColor="mint" />
@@ -37,7 +31,7 @@ export default function Home() {
       </section>
       
       {/* Third section with beige background */}
-      <section className="py-12 bg-[#f9f8f4]">
+      <section id="currently-reading" className="py-12 bg-[#f9f8f4]">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Currently Reading</h2>
           <BookInfo books={booksData.currentlyReading} bgColor="beige" />
