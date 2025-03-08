@@ -91,6 +91,14 @@
         "coverImage" : "/images/body-illustrated.jpg",
         "description" : "A book about the human body",
         "publishedYear" : 2018
+      },
+      {
+        "id" : 13,
+        "title" : "Spring Microservices in Action",
+        "author" : "John Carnell",
+        "coverImage" : "/images/spring-microservices.jpg",
+        "description" : "Spring Microservices in Action teaches you how to build microservice-based applications using Java and the Spring platform.",
+        "publishedYear" : 2017
       }
     ]
   }

@@ -17,8 +17,8 @@ export default function Home() {
       {/* First section with warm beige background */}
       <section id="to-read" className="py-12 bg-[#f9f8f4]">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Books I Want to Read</h2>
-          <BookInfo books={booksData.toRead} bgColor="beige" />
+          <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Currently Reading</h2>
+          <BookInfo books={booksData.currentlyReading} bgColor="beige" />
         </div>
       </section>
       
@@ -33,8 +33,8 @@ export default function Home() {
       {/* Third section with beige background */}
       <section id="currently-reading" className="py-12 bg-[#f9f8f4]">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Currently Reading</h2>
-          <BookInfo books={booksData.currentlyReading} bgColor="beige" />
+          <h2 className="text-2xl font-serif font-bold text-[#382110] mb-6 border-b border-[#e3dfd7] pb-2">Read List</h2>
+          <BookInfo books={booksData.toRead} bgColor="beige" />
         </div>
       </section>
 
